@@ -1,0 +1,520 @@
+@charset "utf-8";
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.w1680 {
+    width: 1680px;
+    margin: 0 auto;
+}
+
+.w1466 {
+    width: 1466px;
+    margin: 0 auto;
+}
+
+#wrap {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/*헤더영역*/
+header {
+    width: 100%;
+    /*    포지션 상단고정*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 33;
+}
+
+header .nav_all {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+header nav {
+    /*    플렉스*/
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+header nav h1 img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header .gnb {
+    /*    플렉스*/
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header .gnb li {
+    margin-left: 224px;
+}
+
+header .gnb li:first-child {
+    margin-left: 0;
+}
+
+header .gnb li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 96px;
+}
+
+header .gnb li a:hover {
+    color: #00a8ec;
+}
+
+header .gnb_icon {
+    /*    플렉스*/
+    display: flex;
+    flex-flow: row nowrap;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header .gnb_icon li {
+    margin-right: 21px;
+}
+
+header .gnb_icon li:last-child {
+    margin-right: 0;
+}
+
+header .gnb_icon .english {
+    display: none;
+}
+
+.gnb_icon > li:nth-child(1) img,
+.gnb_icon > li:nth-child(2) img {
+    width: 52px;
+}
+
+.gnb_icon > li:nth-child(3) img {
+    width: 40px;
+}
+
+.gnb_icon > li:nth-child(4) img {
+    width: 42px;
+}
+
+.search {
+    background: #eaeaea;
+    padding-bottom: 50px;
+    display: none;
+}
+
+.search p {
+    text-align: right;
+    width: 965px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    color: #616161;
+    cursor: pointer;
+}
+
+.search_place {
+    /*    플렉스*/
+    display: flex;
+    width: 965px;
+    margin: 0 auto;
+}
+
+.search_place input {
+    height: 40px;
+    border: none;
+}
+
+.search_place input:first-child {
+    padding: 10px 20px;
+    color: #212121;
+    width: 780px;
+}
+
+.search_place input:last-child {
+    width: 150px;
+    margin-left: 35px;
+    color: #fff;
+    background-color: #00a8ec;
+}
+
+/*2.기업소개 영역*/
+.main {
+    width: 100%;
+    height: 796px;
+    /*    포지션위치기준*/
+    position: relative;
+}
+
+.main .main_text {
+    /*    포지션*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+}
+
+.main .main_text h2 {
+    margin-bottom: 24px;
+}
+
+/*3.CEO인사 영역*/
+.article_ceo {
+    width: 100%;
+    margin-top: 130px;
+    /*    display: none;*/
+}
+
+.article_ceo h2 {
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.article_ceo .ceo {
+    /*    플렉스*/
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.article_ceo .ceo_text h3 {
+    padding-bottom: 48px;
+    line-height: 1.5;
+}
+
+.article_ceo .ceo_text h3 span {
+    color: #00a8ec;
+}
+
+.article_ceo .ceo_text h5 {
+    padding-bottom: 48px;
+    line-height: 1.5;
+    color: #616161;
+}
+
+.article_ceo .ceo_text h5 span {
+    font-size: 21px;
+    padding: 0 20px 0 10px;
+}
+
+.article_ceo .ceo_text h5:last-child {
+    padding-bottom: 0;
+    padding-top: 40px;
+}
+
+.article_ceo .ceo_text h5:last-child img {
+    vertical-align: inherit;
+}
+
+/*4.기업개요 영역*/
+.article_overview {
+    width: 100%;
+    height: 550px;
+    margin-top: 130px;
+    background: url(../images/sw_company_overview_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    /*    포지션 위치기준*/
+    position: relative;
+}
+.article_overview h2 {
+    color: #fff;
+    padding-top: 100px;
+}
+.article_overview h3 {
+    color: #fff;
+    padding-top: 27px;
+}
+.overview_box {
+    /*플렉스*/
+    display: flex;
+    flex-flow: row nowrap;
+    /*포지션*/
+    position: absolute;
+    top: 55%;
+}
+.overview_box .box {
+    width: 393px;
+    height: 422px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #bbb;
+    margin-right: 36px;
+}
+.overview_box .box:last-child {
+    margin-right: 0;
+}
+.overview_box .box img+p {
+    font-size: 16px;
+    padding: 14px 0 28px 0;
+}
+
+.overview_box .box:nth-child(1) {
+    padding-top: 110px;
+}
+
+.overview_box .box:nth-child(2) {
+    padding-top: 136px;
+}
+
+.overview_box .box:nth-child(3) {
+    padding-top: 108px;
+}
+
+.overview_box .box:nth-child(4) {
+    padding-top: 145px;
+}
+
+.overview_box .box img+p+p {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+/*5.기업수상 영역*/
+.article_Award {
+    margin-top: 321px;
+    /*    포지션 위치기준*/
+    position: relative;
+}
+
+.article_Award h2 {
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+/*뒷배경박스*/
+.article_Award .Award_imgbg {
+    width: 492px;
+    height: 370px;
+    background-color: #00a8ec;
+    /*    포지션*/
+    position: absolute;
+    top: 82px;
+    left: 6.25%;
+    z-index: -99;
+}
+
+.article_Award .award_box {
+    /* 플렉스*/
+    display: flex;
+    margin-left: 143px;
+}
+
+.article_Award .award_box ul {
+    width: 718px;
+    margin-left: 105px;
+}
+
+.article_Award .award_box ul li {
+    padding-top: 44px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.article_Award .award_box ul li:first-child {
+    padding-top: 0;
+}
+
+.article_Award .award_box ul li:last-child {
+    padding-bottom: 0;
+    border: none;
+}
+
+.article_Award .award_box span {
+    font-size: 27px;
+    font-weight: 500;
+    padding-right: 115px;
+}
+
+/*6.배너 영역*/
+.section_banner {
+    margin-top: 110px;
+}
+
+.section_banner .banner_bar {
+    /*    포지션위치 기준값*/
+    position: relative;
+    cursor: pointer;
+}
+
+.section_banner .banner_bar .banner_text {
+    /*    포지션*/
+    position: absolute;
+    top: 50%;
+    left: 71.40625%;
+    z-index: 3;
+    transform: translateY(-50%);
+}
+
+.section_banner div h3 {
+    font-weight: 700;
+    padding-bottom: 24px;
+    color: #fff;
+}
+
+.section_banner div p {
+    color: #fff;
+    line-height: 1.5;
+}
+
+/*푸터영역 시작*/
+footer {
+    width: 1920px;
+}
+
+/*푸터배너*/
+.footer_banner {
+    width: 1920px;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.nav_logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.nav_logo img {}
+
+/*푸터업 시작*/
+.footer_up {
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 68px;
+}
+
+.footer_link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 386px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer_up h2 {
+    text-align: center;
+}
+
+.footer_up ul li {
+    margin-top: 30px;
+}
+
+.footer_up ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #616161;
+}
+
+.sns_logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 152px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 69px;
+}
+
+.footer_content {
+    margin-bottom: 77px;
+}
+
+.footer_content p {
+    font-size: 12px;
+    color: #818181;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+/*수평선*/
+hr {
+    width: 1680px;
+    height: 1px;
+    margin: 0 auto;
+    color: #616161;
+    border: 1px solid #616161;
+}
+
+/*푸터다운*/
+.footer_down {
+    margin-top: 74px;
+}
+
+.footer_down_gnb {
+    width: 715px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/*.footer_down_gnb*/
+.footer_down_gnb dt {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 21px;
+    color: #000;
+}
+
+.footer_down_gnb dd {
+    font-size: 11px;
+    color: #818181;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/*검색어창*/
+.container input {
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+/*버튼영역*/
+.container button {
+    background-color: #00a8ec;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 24px;
+    margin-left: 8px;
+    border: none;
+}
+
+.footer_last {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 114px;
+}

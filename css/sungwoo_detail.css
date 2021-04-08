@@ -1,0 +1,470 @@
+body{
+    width: 1920px;
+    font-family: 'Noto Sans Kr',sans-serif;
+    
+}
+.w1680{
+    width: 1680px;
+    margin: 0 auto;
+}
+h2{
+    color: #000;
+    font-size: 50px;
+}
+h3{
+    color: #000;
+    font-size: 37px;
+}
+.sw_detail_main{
+    width: 100%;
+    height: 1039px;
+    position: relative;
+}
+.background img{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -10000;
+    display: none;
+}
+.background img:nth-child(1) {
+    display: block;
+}
+.prev{
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top:50%;
+    left: 20px;
+    z-index: 10;
+    
+    
+}
+.next{
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top:50%;
+    right: 20px;
+    z-index: 10;
+    
+}
+.sw_detail_main_nav{
+    width: 100%;
+    height: 96px;
+    background-color: #fff;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    
+}
+.nav_text{
+    width: 1508px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+.header_text{
+    position: absolute;
+    left: 1177px;
+    top: 408px;
+    
+}
+.nav_text h3,.nav_text h2{
+    color: #000;
+    line-height: 96px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.header_text h1{
+    font-size: 91px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 39px;
+}
+.header_text h3{
+    font-size: 31px;
+    font-family: 'Noto Sans Kr',sans-serif;
+    color: #fff;
+}
+.header_text h4{
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.dot_button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 53px;
+    left: 50%;
+    transform: translateX(-50%;)
+}
+.dot1, .dot2, .dot3, .dot4{
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    z-index: 100;
+    margin-left: 21px;
+}
+main{
+    margin-top: 65px;
+}
+.main_text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main h1{
+    font-size: 50px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 35px;
+}
+main h4{
+    font-size: 21px;
+    color: #000;
+    font-family: 'Noto Sans Kr',sans-serif;
+    line-height: 36px;
+    margin-bottom: 35px;
+}
+.main_img{
+    width: 100%;
+    height: 638px;
+    margin-top: 154px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: self-start;
+    
+}
+.main_img img{
+    width: 464px;
+    height: 552px;
+}
+.main_img img:nth-child(1),.main_img img:nth-child(3){
+   
+    align-self: flex-end;
+}
+main button{
+    margin-top: 76px;
+    margin-bottom: 112px;
+    margin-left: 47%;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 141px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+}
+main button img{
+    
+    width: 15px;
+   margin-left: 5px;
+    margin-top: 8.5px;
+
+    
+}
+.sensor1{
+    width: 100%;
+    background-color: #ebebeb;
+    
+    
+}
+.title{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 114px;
+    padding-bottom: 40px;
+    
+}
+.sensor1_1{
+    
+    
+}
+.sensor1_1_up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.sensor1_1_up_text{
+    margin-top: 84px;
+    margin-left: 37px;
+}
+.sensor1_1_up_text h2{
+    font-size: 37px;
+    font-family: 'Noto Sans Kr',sans-serif;
+    font-weight: bold;
+}
+.sensor1_1_up_text h3{
+    line-height: 45px;
+    font-size: 27px;
+    font-family: 'Roboto',sans-serif;
+}
+.sensor1_1_up_small{
+    width: 822px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   margin-top: 100px;
+    justify-content: space-between;
+}
+.sensor1_1_down{
+    width: 1680px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 45px;
+    
+    
+}
+.sensor1_1_down h3 img{
+    width: 822px;
+    height: 318px;
+    align-self: flex-end;
+}
+.sensor1_1_down_text{
+    width: 822px;
+    margin-top: 99px;
+    
+}
+.sensor1_1_down_text h4{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Noto Sans Kr',sans-serif;
+    text-align: right;
+}
+.sensor1_1_down h3 img{
+    margin-left: 37px;
+}
+.sensor1_2_up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.sensor1_2_up_right_small{
+   width: 822px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   margin-left: 38px;
+    justify-content: space-between;
+}
+.sensor1_2_up_right_text{
+    margin-top: 124px;
+    margin-left: 38px;
+    margin-bottom: 75px;
+}
+.sensor1_2_up_right_text h4{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Noto Sans Kr',sans-serif;
+    text-align: left;
+}
+.sensor1_2_down{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 39px;
+}
+.sensor1_2_down_text{
+    width: 822px;
+    margin-top: 99px;
+    text-align: right;
+    margin-right: 37px;
+}
+.sensor1_2_down_text h3{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Noto Sans Kr',sans-serif;
+}
+.sensor1_2_down_text h4{
+    font-size: 18px;
+    font-family: 'Noto Sans Kr',sans-serif;
+}
+.banner{
+    width: 100%;
+    background-color: #ebebeb;
+}
+.banner img{
+    margin-top: 142px;
+    margin-bottom: 133px;
+}
+.sensor2{
+    width: 100%;
+    background-color: #ebebeb;
+    
+}
+.title2{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+.sensor2_1_up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.sensor2_1_up_rignt{
+    margin-left: 38px;
+    margin-top: 58px;
+}
+.sensor2_1_up_rignt h2{
+    font-size: 47px;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-weight: bold;
+    line-height: 69px;
+    
+}
+.sensor2_1_up_rignt h3{
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+   color: #616161;
+    line-height: 37px;
+}
+.sensor2_1_up_small{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 822px;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.sensor2_1_down{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 36px;
+}
+.sensor2_1_down_text{
+    width: 822px;
+    margin-top: 128px;
+    
+}
+.sensor2_1_down_text h4{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Noto Sans Kr',sans-serif;
+    text-align: right;
+}
+.sensor2_1_down img{
+    margin-left: 38px;
+}
+.sensor2_2{
+    
+}
+.sensor2_2_up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.sensor2_2_up_small{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    width: 822px;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+.sensor2_2_up-right{
+    margin-top: 115px;
+    margin-left: 38px;
+}
+.sensor2_2_up_text{
+    
+    text-align: left;
+}
+.sensor2_2_up_text h4{
+     line-height: 24px;
+    font-size: 16px;
+    font-family: 'Noto Sans Kr',sans-serif;
+   
+}
+.sensor2_2_down{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    padding-bottom: 113px;
+    
+}
+.sensor2_2_down_text{
+    width: 822px;
+    margin-top: 116px;
+    text-align: right;
+    margin-right: 38px;
+    
+}
+.sensor2_2_down_text h3{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Noto Sans Kr',sans-serif;
+    line-height: 29px;
+}
+.sensor2_2_down_text h4{
+    font-size: 18px;
+    font-family: 'Noto Sans Kr',sans-serif;
+    line-height: 26px;
+}
+.product_info{
+    margin-bottom: 177px;
+}
+.title3{
+    margin-top: 114px;
+    font-size: 50px;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.product_info_img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.product_info_img h3{
+    margin-top: 38px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Noto Sans Kr', sans-serif;
+}
+.product_info_img h4{
+    line-height: 34px;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Noto Sans Kr', sans-serif;
+}
+.rnb img{
+    width: 400px;
+    cursor: pointer;
+    
+}
+.rnb img:hover,.nature img:hover,.car img:hover{
+    filter: brightness(70%);
+    
+}
+.nature img{
+    width: 600px;
+    cursor: pointer;
+}
+.car img{
+    width: 400px;
+    cursor: pointer;
+}
+.rnb {
+    
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>로그인</title>
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<style>
+		#wrap {
+			width: px;
+			margin: 0 auto;
+		}
+		.intro {
+			background: url('images/login_bg.jpg') no-repeat;
+			background-position: center;
+			background-size: cover;
+			height: 150px;
+			padding: 20px;
+			position: relative;
+		}
+		.intro p {
+			text-align: center;
+			padding-top: 10px;
+		}
+		.intro img {
+			width: 130px;
+		}
+		.login {
+			width: 820px;
+			margin: 0 auto;
+			padding: 60px 30px;
+		}
+		.login h2 {
+			text-align: center;
+			font-size: 25px;
+			font-weight: bold;
+			margin-bottom: 40px;
+		}
+		.login_text {
+			display: flex;
+			padding: 10px 200px;
+		}
+		.login_text label {
+			margin-right: 25px;
+			margin-top: 6px;
+		}
+		.login_text input {
+			padding: 5px 15px;
+			border: 1px solid #000;
+		}
+		.login_text> :first-child label {
+			margin-right: 30px;
+		}
+		.login> p {
+			text-align: center;
+		}
+		.login> p input {
+			width: 100px;
+			height: 30px;
+			margin-top: 15px;
+			color: #000;
+			background-color: #eaeaea;
+			border: none;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div class="intro">
+			<div></div>
+			<p><img src="images/footer_logo.png" alt="로고이미지"></p>
+		</div>
+		<div class="login">	
+			<h2>사원로그인</h2>
+			<div class="login_text">
+				<label for="user_id">ID</label>
+				<input type="text" id="user_id" placeholder="아이디 또는 이메일을 입력하세요">
+			</div>
+			<div class="login_text">
+				<label for="user_pw">PW</label>
+				<input type="password" id="user_pw" placeholder="비밀번호를 입력하세요.">
+			</div>
+			<p>
+				<input type="button" value="로그인" id="login_button">
+			</p>
+		</div>
+	</div>
+</body>
+</html>

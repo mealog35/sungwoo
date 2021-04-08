@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<!--IE이전 버전 한글 사용-->
+<!--[if IE 7]><html class="no-js old ie7 lang="ko"><![endif]-->
+<!--[if IE 8]><html class="no-js old ie8 lang="ko"><![endif]-->
+<!--[if IE 9]><html class="no-js old ie9 lang="ko"><![endif]-->
+<!--[if (gt IE 9)|!(IE) 7]><!--><html lang="ko"><!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="웹에이전시,반응형웹개발,웹디자인,웨프로그래밍,HTML5,CSS3,자바스크립트,제이쿼리">
+    <meta name="description" content="웹애드는 웹표준을 준수하고 개발하는 웹에이전시입니다.">
+<!--    IE8버진에서 호환성 보기 버튼 클릭시, 웹표준을 지키지 않던 구 브라우저의 엔더링 방이식이 관용모드로 작동-->
+<!--   최신모드로 지정된DOCTYPE에 상관없이 IE8이상 버전에서는 항상 최신 쵸준모드로 렌더링(관용모드로 렌더링 안함)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--    뷰포트-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    IE9이하에서 뷰포트사용-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title>프로젝트 기본 페이지</title>
+<!--폰트어썸 CDN-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font=awesome/4.7.0/css/font-awesome.min.css">
+   <!--   파비콘-->
+   <link rel="shortcut icon" href="#">
+   <link rel="apple-touch-icon-precomposed" href="#">
+   <!--    기본CSS-->
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="css/notosans_kr_CDN.css">
+<!--   <link rel="stylesheet" href="css/footer.css">-->
+   <link rel="stylesheet" href="css/sw_header.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/sungwoo_detail.css">
+   
+<!--   IE9버전이하HTML5시멘틱 태그 사용-->
+   <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+   <!--   IE9버전이하 미디어쿼리 사용--> 
+   <!--[if lt IE 9]><script src="js/respond.src.js"></script><![endif]-->
+     <!--   IE10버전이하 CSS3일부기능(border-radius,box-shadow,linear-gradient)등 사용--> 
+   <!--[if lt IE 10]><script src="js/PIE.js"></script><![endif]-->
+     <!--   제이쿼리 코어 플러그인--> 
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src=js/jquery-3.3.1.min.js></script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!--    벤더프리픽스 플러그인 :CSS3속성 접두사 코딩 생략가능-->
+<script src="js/prefixfree.min.js"></script>
+
+
+<!--제이쿼리 서드파티 플러그인 영역-->
+
+</head>
+
+<body>
+<div class="sw_detail_main">
+    
+     <header>
+            <div class="w1680">
+                <nav>
+                    <h1>
+                        <a href="index.html"><img src="images/header_logo.png" alt="회사로고"></a>
+                    </h1>
+                    <ul class="gnb">
+                        <li><a href="sw_company.html">기업정보</a></li>
+                        <li><a href="sw_product.html">제품소개</a></li>
+                        <li><a href="sungwoo_detail.html">제품 세부사항</a></li>
+                        <li><a href="sw_person.html">인재 경영</a></li>
+                    </ul>
+                    <ul class="gnb_icon">
+                        <li class="korean"><a href="#"><img src="images/header_icon_ko.png" alt="언어아이콘"></a></li>
+                        <li class="english"><a href="#"><img src="images/header_icon_en.png" alt="언어아이콘"></a></li>
+                        <li><a href="sw_login.html"><img src="images/header_icon_user.png" alt="로그인아이콘"></a></li>
+                        <li><a href="#"><img src="images/header_icon_search.png" alt="검색아이콘" class="search_icon"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--검색창 영역-->
+            <div class="search">
+            	<p class="search_close">X</p>
+            	<div class="search_place">
+            		<input type="text" placeholder="검색어를 입력하세요">
+            		<input type="button" value="SEARCH">
+            	</div>
+            </div>
+        </header>
+    
+      <nav class="sw_detail_main_nav">
+         <div class="nav_text">
+          <h3>2020</h3>
+          <h2>SMART CAR</h2>
+          <h3>2021</h3>
+          </div>
+      </nav>
+      
+
+      <div class="background">
+          <img id='img1' src="images/detail_smartcar_main_img1.png">
+          <img id='img2' src="images/detail_smartcar_main_img2.png">
+          <img id='img3' src="images/detail_smartcar_main_img3.png">
+          <img id='img4' src="images/detail_smartcar_main_img4.png">
+      </div>
+      
+<!--
+      <div class="background">
+          <img src="images/detail_smartcar_main_img2.png">
+      </div>
+      <div class="background">
+          <img src="images/detail_smartcar_main_img3.png">
+      </div>
+      <div class="background">
+          <img src="images/detail_smartcar_main_img4.png">
+      </div>
+-->
+
+      <div class="header_text">
+          <h3>자연의 기술력으로 더 나은 세상을 만들어갑니다</h3>
+          <h1>SMART CAR</h1>
+          <h4>we build a world where people</h4>
+          <h4>live together in harmony with technologies</h4>
+          <h4>which let the nature breathe</h4>
+      </div>
+      <div class="dot_button">
+      
+    <div class="dot1" id="dot1"></div>
+    <div class="dot2" id="dot2"></div>
+    <div class="dot3" id="dot3"></div>
+    <div class="dot4" id="dot4"></div>
+    </div>
+      <!--      이전버튼-->
+       <a href="#" class="prev" onclick="plusSlides(-1);">&lt;</a>
+<!--       다음버튼-->
+       <a href="#" class="next" onclick="plusSlides(1);" >&gt;</a>
+ </div>
+  <main>
+     <div class="main_text w1680">
+      <h1>SMART CAR</h1>
+      <h4>미래의 기술력으로<br>
+      새로워진 여유로움을 만나보세요</h4>
+      <hr>
+      </div>
+      <div class="main_img">
+         <img src="images/detail_smartcar_slideimg1.png">
+         <img src="images/detail_smartcar_slideimg2.png">
+         <img src="images/detail_smartcar_slideimg3.png">
+         <img src="images/detail_smartcar_slideimg4.png">
+      </div>
+      <button id="">MORE<img src="images/detail_right_arrow.png"></button>
+      
+  </main>
+  <section class="sensor1">
+     
+      <article class="sensor1_1 w1680">
+       <div class="title">sensor</div>
+        <div class="sensor1_1_up">
+         <h1><img src="images/detail_fir_main1.png"></h1>
+         <div class="sensor1_1_up_text">
+         <h2>원적외선 센서</h2>
+         <h3>(FIR: Far InfraRed)</h3>
+         <div class="sensor1_1_up_small">
+         <h3><img src="images/detail_fir_small1.png"></h3>
+         <h3><img src="images/detail_fir_small2.png"></h3>
+         <h3><img src="images/detail_fir_small3.png"></h3>
+         </div>
+         </div>
+         </div>
+        
+        <div class="sensor1_1_down">
+           <div class="sensor1_1_down_text">
+            <h4>사물에서 방사되는 적외선 에너지(열)을</h4>
+            <h4>이용하여 육안으로 식별가능한</h4>
+            <h4>영상으로 출력하는 장치</h4>
+            </div>
+            <h3><img src="images/detail_fir_long1.png"></h3>
+        </div>
+        </article>
+        <article class="sensor1_2 w1680">
+         <div class="sensor1_2_up">
+              <h1><img src="images/detail_fir_main2.png"></h1>
+              <div class="sensor1_2_up_right">
+              <div class="sensor1_2_up_right_text">
+            <h4>빛이 전혀없는 야간이나</h4>
+            <h4>기상 악조건에서도 사물인식 및</h4>
+            <h4>주변인식이 가능한 센서 제품</h4>
+            </div>
+            <div class="sensor1_2_up_right_small">
+         <h3><img src="images/detail_fir_small4.png"></h3>
+         <h3><img src="images/detail_fir_small5.png"></h3>
+         <h3><img src="images/detail_fir_small6.png"></h3>
+         </div>
+         </div>
+        </div>
+        <div class="sensor1_2_down">
+           <div class="sensor1_2_down_text">
+            <h3>활동분야:</h3>
+            <h4>나이트 비전 시스템</h4>
+            <h4>자동 긴급 제동 시스템</h4>
+            <h4>자율 주행 제어</h4>
+            </div>
+            <h3><img src="images/detail_fir_long2.png"></h3>
+        </div>
+         
+        </article>
+        
+  </section>
+   <section class="banner">
+       <img src="images/detail_bennerslideimg.png">
+   </section>
+   <section class="sensor2">
+       <div class="title2 w1680">sensor</div>
+      <article class="sensor2_1 w1680">
+        <div class="sensor2_1_up">
+         <h1><img src="images/detail_lidar_main1.png"></h1>
+         <div class="sensor2_1_up_rignt">
+         <h2>라이다 센서</h2>
+         <h3>(LIDAR: Light Detection</h3>
+         <h3>And Ranging)</h3>
+         <div class="sensor2_1_up_small">
+         <h3><img src="images/detail_lidar_small1.png"></h3>
+         <h3><img src="images/detail_lidar_small2.png"></h3>
+         <h3><img src="images/detail_lidar_small3.png"></h3>
+         </div>
+         </div>
+        </div>
+        <div class="sensor2_1_down">
+           <div class="sensor2_1_down_text">
+            <h4>레이저 펄스를 발사하고</h4>
+            <h4>그 빛이 주위의 대상 물체에서</h4>
+            <h4>반사되어 돌아오는 것을 받는다</h4>
+            </div>
+            <h3><img src="images/detail_lidar_long1.png"></h3>
+        </div>
+        </article>
+        <article class="sensor2_2 w1680">
+         <div class="sensor2_2_up">
+             
+              <h1><img src="images/detail_lidar_main2.png"></h1>
+              <div class="sensor2_2_up-right">
+              <div class="sensor2_2_up_text">
+            <h4>물체까지의 거리 등을 측정함으로써</h4>
+            <h4>주변의 모습을 정밀하게</h4>
+            <h4>그려내는 센서 제품</h4>
+           
+            </div>
+            <div class="sensor2_2_up_small">
+         <h3><img src="images/detail_lidar_small4.png"></h3>
+         <h3><img src="images/detail_lidar_small5.png"></h3>
+         <h3><img src="images/detail_lidar_small6.png"></h3>
+         </div>
+         </div>
+        </div>
+        <div class="sensor2_2_down">
+           <div class="sensor2_2_down_text">
+            <h3>활동분야:</h3>
+            <h4>정밀 측위</h4>
+            <h4>사물 인식 및 거리 측정</h4>
+            <h4>고해상도 3D 지도 제작</h4>
+            </div>
+            <h3><img src="images/detail_lidar_long2.png"></h3>
+        </div>
+        </article>
+    </section>
+    <section class="product_info w1680">
+        <div class="title3">제품소개</div>
+        <article class="product_info_img">
+            <div class="rnb">
+                <a href="#"><img src="images/detail_circle1.png"></a>
+                <h3>R&amp;D 연구소</h3>
+                <h4>R&amp;D 센터소개</h4>
+                <h4>연구분야</h4>
+            </div>
+            <div class="nature">
+                <a href="#"> <img src="images/detail_circle2.png"></a>
+                <h3>친환경차 부품</h3>
+                
+            </div>
+            <div class="car">
+                <a href="#"><img src="images/detail_circle3.png"></a>
+                <h3>차체</h3>
+                <h4>제품소개</h4>
+                <h4>공정도</h4>
+            </div>
+        </article>
+        
+    </section>
+    
+    
+    
+    <footer>
+     <!--배너영역 시작-->
+      <nav class="footer_banner">
+         <ul class="nav_logo">
+            <li>
+               <a href="https://www.renaultsamsungm.com/">
+                  <img src="images/footer_memb_01.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.hyundai.com/kr/ko/e">
+                  <img src="images/footer_memb_02.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.kia.com/kr/main.html">
+                  <img src="images/footer_memb_03.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.audi.co.kr/kr/web/ko.html">
+                  <img src="images/footer_memb_04.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.mercedes-benz.co.kr/passengercars/buy/MBM/introduction.html">
+                  <img src="images/footer_memb_05.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.bmw.co.kr/ko/index.html">
+                  <img src="images/footer_memb_06.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.chevrolet.co.kr/index.jsp">
+                  <img src="images/footer_memb_07.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.volkswagen.co.kr/ko.html">
+                  <img src="images/footer_memb_08.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.gm-korea.co.kr/gmkorea/index.do">
+                  <img src="images/footer_memb_09.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.nissan.co.kr/">
+                  <img src="images/footer_memb_10.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.jaguarkorea.co.kr/index.html">
+                  <img src="images/footer_memb_11.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.tesla.com/ko_kr">
+                  <img src="images/footer_memb_12.png">
+               </a>
+            </li>
+         </ul>
+      </nav>
+     <!--배너영역 끝-->
+     <!--푸터 윗단 시작-->
+      <div class="footer_up">
+         <h2>
+            <img src="images/footer_logo.png">
+         </h2>
+         <ul class="footer_link">
+            <li>
+               <a href="#">
+                  회사소개
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  역사관
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  찾아오시는 길
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  인재채용
+               </a>
+            </li>
+         </ul>
+         <ul class="sns_logo">
+            <li>
+               <a href="https://www.facebook.com/pages/category/Automotive-Manufacturer/%EC%84%B1%EC%9A%B0%ED%95%98%EC%9D%B4%ED%85%8D-SUNGWOO-HITECH-807415382669763/">
+                  <img src="images/footer_icon_facebook.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://blog.naver.com/swhitech1977">
+                  <img src="images/footer_icon_twitter.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://youtu.be/8ORiKXe12R8">
+                  <img src="images/footer_icon_youtube.png">
+               </a>
+            </li>
+         </ul>
+         <div class="footer_content">
+            <p>
+               [서창공장]50511경상남도 양산시 소주공단 3길50&nbsp;&nbsp;|&nbsp;&nbsp; 대표전화:070-7477-5000&nbsp;&nbsp;|&nbsp;&nbsp;팩스:055-366-5900
+            </p>
+            <p>
+               [정관공장]46020부산광영시 기장군 정관읍 농공길 2-9&nbsp;&nbsp;|&nbsp;&nbsp; 대표전화:070-7477-3516&nbsp;&nbsp;|&nbsp;&nbsp;팩스:051-728-3516
+            </p>
+         </div>
+         
+      </div>
+     <!--푸터 윗단 끝-->
+     <!--푸터 아랫단 시작-->
+      <hr>
+      <div class="footer_down">
+      <div class="footer_down_gnb">
+         <dl>
+            <dt><a href="#">기업정보</a></dt>
+            <dd><a href="#">기업개요</a></dd>
+            <dd><a href="#">미디어센터</a></dd>
+            <dd><a href="#">투자정보</a></dd>
+            <dd><a href="#">지속가능</a></dd>
+         </dl>
+         <dl>
+            <dt><a href="#">제품소개</a></dt>
+            <dd><a href="#">친환경차 부품</a></dd>
+            <dd><a href="#">스마트카 부품</a></dd>
+            <dd><a href="#">차체</a></dd>
+            <dd><a href="#">R&amp;D센터</a></dd>
+         </dl>
+         <dl>
+            <dt><a href="#">인재경영</a></dt>
+            <dd><a href="#">인사제도</a></dd>
+            <dd><a href="#">채용정보</a></dd>
+         </dl>
+         <dl>
+            <dt>검색</dt>
+            <dd>
+               <!--검색창 시작-->
+               <form action="#">
+                  <fieldset>
+                     <div class="search_box">
+                        <div class="container">
+                           <input type="search" id="search" placeholder="" autocomplete="off">
+                           <button>SEARCH</button>
+                        </div>
+                     </div>
+                  </fieldset>
+               </form>
+               <!--검색창 끝-->
+            </dd>
+         </dl>
+         </div>
+     <!--푸터 아랫단 끝-->
+        <!--푸터 마지막단 시작-->
+         <p class="footer_last">
+            COPYRIGHT&copy;2021 C5(2V) SUNGWOO HITECH RENEWAL ALL RIGHT RESERVED.
+         </p>
+        <!--푸터 마지막단 끝-->
+      </div>
+   </footer>
+</body>
+<script src="js/sungwoo_detail.js"></script>
+</html>

@@ -1,0 +1,476 @@
+@charset "UTF-8";
+
+.w1680 {
+	width: 1680px;
+	margin: 0 auto;
+}
+
+#wrap {
+	width: 1920px;
+}
+
+
+/*메인 슬라이드 영역*/
+.main_slide {
+	width: 100%;
+}
+
+.main_slide .slideshow_container {
+	background: red;
+	/*background: url('../images/sw_product_main.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;*/
+	position: relative;
+}
+
+.main_slide .slideshow_container img {
+	width: 100%;
+	height: 700px;
+}
+
+.slideshow_container .main_slide_text {
+	position: absolute;
+	top: 280px;
+	left: 150px;
+}
+
+.slideshow_container .main_slide_text h2 {
+	line-height: 60px;
+	font-size: 3.1rem;
+	color: #fff;
+	font-weight: 800;
+}
+
+.main_slide .main_slide_text p {
+	margin-top: 24px;
+	font-size: 24px;
+	color: #eee;
+}
+
+.main_slide_icon {
+	/*background: red;*/
+	padding-top: 134px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+	position: absolute;
+	top: 500px;
+	left: 180px;
+}
+
+.slide_icon_left a {
+	padding-right: 32px;
+}
+
+.main_slide_icon .slide_icon_right {
+	color: #ccc;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	font-family: row nowrap;
+}
+
+.main_slide_icon .slide_icon_right span {
+	padding-left: 64px;
+	text-align: right;
+}
+
+.main_slide_icon .slide_icon_right hr {
+	border-bottom: 3px solid #ccc;
+	width: 70px;
+}
+
+/*아티클 타이틀 영역*/
+.econology {
+	padding: 110px 0;
+	text-align: center;
+	position: relative;
+}
+
+.econology h2 {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.econology h2 hr {
+	border-bottom: 8px solid #0077be;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.econology p {
+	margin-top: 36px;
+	font-size: 21px;
+	line-height: 32px;
+}
+
+.econology span:first-child {
+	position: absolute;
+	top: 80px;
+	left: 520px;
+}
+
+.econology span:last-child {
+	position: absolute;
+	bottom: 90px;
+	right: 540px;
+}
+
+/*아티클 인트로 영역*/
+.product_intro {
+	margin-top: 146px;
+}
+
+.product_intro_first,
+.product_intro_second {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.product_intro_content01 h3 + img {
+	padding-top: 52px;
+}
+
+.intro_title {
+	width: 350px;
+	height: 240px;
+	margin: 0 auto;
+	padding-top: 45px;
+}
+
+.intro_title img {
+	margin-bottom: 32px;
+}
+
+.intro_title p {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.intro_title a img {
+	margin-left: 160px;
+	padding-top: 15px;
+}
+
+.product_intro_content02 {
+	padding-left: 42px;
+}
+
+.product_intro_second {
+	padding-top: 100px;
+}
+
+/*아티클 친환경 영역*/
+.eco_friendly {
+	margin-top: 110px;
+	padding-top: 36px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.eco_content01 {
+	position: relative;
+}
+
+.eco_content01 span {
+	font-size: 8rem;
+	color: #aaa;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20px;
+}
+
+.eco_content01 h3 {
+	position: absolute;
+	top: 55%;
+	transform: translateY(-55%);
+	left: 100px;
+	font-size: 50px;
+	font-weight: 800;
+	color: #fff;
+}
+
+.eco_content02 {
+	position: relative;
+}
+
+.eco_content02 img {
+	position: absolute;
+	top: 30%;
+	transform: translateY(-30%);
+	left: -250px;
+}
+
+.eco_content02 .content02_text {
+	position: absolute;
+	bottom: 10px;
+	left: 120px;
+	width: 300px;
+}
+
+.content02_text h4 {
+	font-size: 27px;
+	font-weight: 700;
+	transition: all .3s ease-in-out;
+}
+
+.content02_text h4:hover {
+	border-bottom: 5px solid #dfa200;
+	width: 192px;
+}
+
+.content02_text p {
+	font-size: 16px;
+	line-height: 21px;
+	padding-top: 12px;
+	padding-bottom: 24px;
+}
+
+.content02_text a:hover {
+	text-decoration: underline;
+}
+
+/*아티클 스마트 영역*/
+.smart_car {
+	margin-top: 110px;
+	padding-top: 36px;
+}
+
+.smart_title {
+	width: 100%;
+	height: 700px;
+	background: url('../images/sw_product_smart_section_img01.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.smart_title .smart_text {
+	position: relative;
+	top: 160px;
+	text-align: right;
+}
+
+.smart_text span {
+	font-size: 8rem;
+	color: #424242;
+}
+
+.smart_text h3 {
+	font-size: 50px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 100px;
+	font-weight: 800;
+}
+
+.smart_text p {
+	font-size: 27px;
+	color: #212121;
+	padding-top: 24px;
+	position: absolute;
+	top: 80%;
+	right: 100px;
+}
+
+.smart_content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-top: 36px;
+}
+
+.smart_content_left {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.smart_content_left .up_text {
+	position: relative;
+}
+
+.smart_content_left .up_text h4,
+.down_text h4 {
+	font-size: 27px;
+	font-weight: 700;
+	padding-bottom: 24px;
+}
+
+.smart_content_left .up_text span {
+	position: absolute;
+	top: 30%;
+	transform: translateY(-30%);
+	right: 0;
+}
+
+.smart_content_left .down_text {
+	position: relative;
+	padding-top: 60px;
+}
+
+.smart_content_left .down_text span {
+	position: absolute;
+	top: 60%;
+	transform: translateY(-60%);
+	right: 0;
+}
+
+.smart_content_left hr {
+	border-bottom: 5px solid #424242;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+/*아티클 센터 영역*/
+.rd_center {
+	margin-top: 200px;
+	position: relative;
+}
+
+.center_title {
+	text-align: center;
+}
+
+.center_title span {
+	font-size: 8rem;
+	color: #aaa;
+}
+
+.center_title h3 {
+	font-size: 50px;
+	color: #000;
+	font-weight: 800;
+	position: relative;
+	top: -50px;
+}
+
+.center_text {
+	width: 1170px;
+	height: 123px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top: 110px;
+}
+
+.center_text h4 {
+	font-size: 27px;
+	font-weight: 700;
+	padding-top: 45px;
+}
+
+.center_text hr {
+	border-bottom: 5px solid #de0024;
+	width: 242px;
+	margin-top: 12px;
+}
+
+.center_text p {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.center_bg {
+	margin-top: 36px;
+}
+
+.center_img {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	position: absolute;
+	top: 60%;
+	left: 130px;
+}
+
+.center_img_left {
+	padding-right: 20px;
+}
+
+.center_img_right {
+	padding-left: 16px;
+}
+
+.hover_box a {
+	position: relative;
+}
+
+.hover_box a:before {
+	display: block;
+	width: 822px;
+	height: 598px;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	z-index: 100;
+	content: "";
+	background: rgba(0, 0, 0, 0.4);
+	opacity: 0;
+	transition: all .3s;
+}
+
+.hover_box a:hover:before {
+	opacity: 0.85;
+}
+
+.hover_box a:hover > div {
+	opacity: 1;
+	transform: translateY(30px);
+}
+
+/*정보 박스영역*/
+.hover_box div {
+	/*포지션*/
+	position: absolute;
+	left: 340px;
+	top: 230px;
+	z-index: 200;
+	opacity: 0;
+	transition: all .3s;
+}
+
+.hover_box div h3 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 48px;
+}
+
+.hover_box div span {
+	font-size: 11px;
+	opacity: 0.3;
+	position: relative;
+	top: -60px;
+	left: 50px;
+}

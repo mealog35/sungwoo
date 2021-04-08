@@ -1,0 +1,248 @@
+#wrap{
+    width: 1920px;
+    margin: 0 auto;
+}
+.w1680{
+    width: 1680px;
+    margin: 0 auto;
+}
+.cf{
+    content: "";
+    display:block;
+    clear:both;
+}
+/*헤더영역*/
+.sw_person{
+    height: 770px;
+    background-image: url(../images/sw_person_main.png);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.sw_person .title{
+    padding-top: 290px;
+    text-align: center;
+}
+.sw_person .title p{
+    margin-top: 40px;
+    line-height: 1.7;
+    color: #fff;
+}
+.sw_person .title h2{
+    color: #fff;
+}
+/*콘텐츠 영역(1)*/
+.win{
+    margin-top: 110px;
+    padding: 80px;
+    text-align: center;
+}
+.win h3{
+    margin-top: 60px;
+}
+.win p{
+    margin-top: 60px;
+    line-height: 1.7;
+    color: #818181;
+}
+/*콘텐츠 영역(2)*/
+.cooperate{
+    margin-top: 110px; 
+    height: 365px;
+    background-image: url(../images/sw_person_culture.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+.cooperate h2{
+    padding-top: 80px;
+    padding-bottom: 37px;
+    color: #fff;
+    text-align: center;
+}
+.cooperate h3{
+    color: #fff;
+}
+.cooperate p{
+    color: #b3adad;
+}
+.w1680 .content01{
+    /*플롯*/
+    float: left;
+    width: 390px;
+    height: 390px;
+    background-color: rgba(0,0,0,0.7);
+    margin-right: 37px;
+}
+.w1680 .content01 h3,
+.w1680 .content02 h3,
+.w1680 .content03 h3,
+.w1680 .content04 h3{
+    padding-top: 120px;
+}
+.w1680 .content01 p,
+.w1680 .content02 p,
+.w1680 .content03 p,
+.w1680 .content04 p{
+    padding-top: 32px;
+    line-height: 1.6;
+}
+.w1680 .content02{
+    /*플롯*/
+    float: left;
+    width: 390px;
+    height: 390px;
+    background-color: rgba(0,0,0,0.7);
+    margin-right: 37px;
+    margin-bottom: 190px;
+}
+.w1680 .content03{
+    /*플롯*/
+    float: left;
+    width: 390px;
+    height: 390px;
+    background-color: rgba(0,0,0,0.7);
+    margin-right: 37px;
+}
+.w1680 .content04{
+    /*플롯*/
+    float: left;
+    width: 390px;
+    height: 390px;
+    background-color: rgba(0,0,0,0.7);
+    margin-right: 0;
+}
+/*콘텐츠 영역(3)*/
+.development{
+    background-color: #bdbdbd;
+    text-align: center;
+    padding: 140px 0;
+    margin-bottom: 110px;
+}
+.development h3{
+    color: #616161;
+}
+.development h2{
+    margin-top: 40px;
+}
+.development p{
+    margin-top: 40px;
+    line-height: 1.5;
+    color: #212121;
+}
+/*콘텐츠 영역(4)*/
+.img1{
+    /*플롯*/
+    float: left;
+    margin-right: 88px;
+}
+.education h3{
+    padding-top: 195px;
+}
+.education p{
+    padding-top: 52px;
+    line-height: 1.4;
+    color: #000;
+}
+.grobal{
+    padding-left: 72px;
+    padding-top: 38px;
+}
+.img2{
+    float: left;
+    margin-right: 88px;
+    text-align: right;
+}
+/*콘텐츠 영역(5)*/
+.human{
+    padding-top: 110px;
+    text-align: center;
+}
+.human img{
+    margin-bottom: 50px;
+}
+.human h3{
+    margin-bottom: 30px;
+}
+.human h2{
+    padding-top: 86px;
+    padding-bottom: 35px;
+}
+.human p{
+    line-height: 1.4;
+}
+.self{
+    margin-left: 130px;
+    /*플롯*/
+    float: left;
+    margin-right: 178px;
+}
+.pro{
+    /*플롯*/
+    float: left;
+    margin-right: 178px;
+}
+.crea{
+    /*플롯*/
+    float: left;
+    padding-bottom: 83px;
+}
+/*콘텐츠 영역(5)*/
+.benefits{
+    padding: 110px 0;
+    /*포지션*/
+    position: relative;
+}
+.benefits h2{
+    text-align: center;
+    margin-bottom:32px;
+}
+.benefits h3{
+    /*포지션*/
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    color: #fff;
+}
+.explanation img{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+}
+/*배너부분1*/
+.banner01{
+    margin-top: 80px;
+    position: relative;
+}
+.banner01 .ban_info_1{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: #fff;
+}
+.banner01 .ban_info_1 h3{
+    margin-bottom: 23px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.banner01 .ban_info_1 h3:hover{
+    color: #222;
+}
+/*배너부분2*/
+.banner02{
+    position: relative;
+}
+.banner02 .ban_info_2{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: #fff;
+}
+.banner02 .ban_info_2 h3{
+    margin-bottom: 23px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.banner02 .ban_info_2 h3:hover{
+    color: #222;
+}

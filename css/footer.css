@@ -1,0 +1,129 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*푸터영역 시작*/
+footer{
+    width: 1920px;
+	margin-top: 250px;
+}
+/*푸터배너*/
+.footer_banner{
+    width: 1920px;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+.nav_logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nav_logo img{}
+/*푸터업 시작*/
+.footer_up{
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 68px;
+}
+.footer_link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 386px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer_up h2{
+    text-align: center;
+}
+.footer_up ul li{
+    margin-top: 30px;
+}
+.footer_up ul li a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #616161;
+}
+.sns_logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 152px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 69px;
+}
+.footer_content{
+    margin-bottom: 77px;
+}
+.footer_content p{
+    font-size: 12px;
+    color: #818181;
+    margin-bottom: 12px;
+    text-align: center;
+}
+/*수평선*/
+hr{
+    width: 1680px;
+    height: 1px;
+    margin: 0 auto;
+    color: #616161;
+    border: 1px solid #616161;
+}
+/*푸터다운*/
+.footer_down{
+    margin-top: 74px;
+}
+.footer_down_gnb{
+    width: 715px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+/*.footer_down_gnb*/
+.footer_down_gnb dt{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 21px;
+    color: #000;
+}
+.footer_down_gnb dd{
+    font-size: 11px;
+    color: #818181;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+/*검색어창*/
+.container input{
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+/*버튼영역*/
+.container button{
+    background-color: #00a8ec;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 24px;
+    margin-left: 8px;
+    border: none;
+}
+.footer_last{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 114px;
+}
+
+
+
+

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!--IE이전 버전 한글 사용-->
+<!--[if IE 7]><html class="no-js old ie7" lang="ko"><![endif]-->
+<!--[if IE 8]>
+<html class="no-js old ie8" lang="ko">
+<![endif]-->
+<!--[if IE 9]>
+<html class="no-js old ie9" lang="ko">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!--><html lang="ko"><!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="웹에이전시,반응형웹개발,웹디자인,웹프로그래밍,HTML5,CSS3,자바스크립,제이쿼리">
+    <meta name="description" content="웹에드는 웹표준을 준수하고 개발하는 웹에이전시입니다.">
+    <!--IE8버전에서 호환성 보기 버튼 클릭시, 웹표준을 지키지 않던 구 브라우저의 랜더링 방식이 관용모드로 작동-->
+    <!--최신 모드로 지정된 DOCTYPE에 상관 없이 IE8이상 버전에서는 항상 최신 표준모드로 렌더링(관용모드로 렌더링 안함)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--뷰포트-->
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <!--IE9이하에서 뷰포트 사용-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title>성우하이텍</title>
+    <!--폰트어썸CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--파비콘-->
+    <link rel="shortcut icon" href="#">
+    <link rel="apple-touch-icon-precomposed" href="#">
+    <!-- 기본 CSS-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/notosans_kr_CDN.css">
+    <link rel="stylesheet" href="css/sw_header.css">
+    <link rel="stylesheet" href="css/sw_person.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!--IE9 버전이하 HTML5 시멘틱 태그 사용-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+    <!--IE9 버전이하 미디어쿼리 사용-->
+    <!--[if lt IE 9]><script src="js/respond.src.js"></script><![endif]-->
+    <!--IE10 버전이하 CSS3일부가능(border-radius,box-shadow,linear-gradient)등 사용-->
+    <!--[if lt IE 10]><script src="js/PIE.js"></script><![endif]-->
+    <!--제이쿼리 코어 플러그인-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--벤더프리픽스 플러그인 : CSS3속성 접두사 코딩 생략가능-->
+    <script src="js/prefixfree.min.js"></script>
+    <script>
+          $(function() {
+            $('.korean').click(function() {
+                $('.korean').css({
+                    'display': 'none'
+                });
+                $('.english').css({
+                    'display': 'block'
+                });
+            });
+            $('.english').click(function() {
+                $('.english').css({
+                    'display': 'none'
+                });
+                $('.korean').css({
+                    'display': 'block'
+                });
+            });
+            $('.search_icon').click(function() {
+                $('.search').css({
+                    'display': 'block'
+                });
+            });
+            $('.search_close').click(function() {
+                $('.search').css({
+                    'display': 'none'
+                });
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+         <!--1. 헤더영역 시작-->
+        <header>
+            <div class="w1680">
+                <nav>
+                    <h1>
+                        <a href="index.html"><img src="images/header_logo.png" alt="회사로고"></a>
+                    </h1>
+                    <ul class="gnb">
+                        <li><a href="sw_company.html">기업정보</a></li>
+                        <li><a href="sw_product.html">제품소개</a></li>
+                        <li><a href="sungwoo_detail.html">제품 세부사항</a></li>
+                        <li><a href="sw_person.html">인재 경영</a></li>
+                    </ul>
+                    <ul class="gnb_icon">
+                        <li class="korean"><a href="#"><img src="images/header_icon_ko.png" alt="언어아이콘"></a></li>
+                        <li class="english"><a href="#"><img src="images/header_icon_en.png" alt="언어아이콘"></a></li>
+                        <li><a href="sw_login.html"><img src="images/header_icon_user.png" alt="로그인아이콘"></a></li>
+                        <li><a href="#"><img src="images/header_icon_search.png" alt="검색아이콘" class="search_icon"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--검색창 영역-->
+            <div class="search">
+                <p class="search_close">X</p>
+                <div class="search_place">
+                    <input type="text" placeholder="검색어를 입력하세요">
+                    <input type="button" value="SEARCH">
+                </div>
+            </div>
+        </header>
+        <!--1. 헤더영역 끝-->
+      <!--헤더영역 시작-->
+       <header class="sw_person">
+           <div class="title w1680">
+               <h2>인재경영</h2>
+               <p>성우인, 생각의 혁신으로 미래를 만들어갑니다.<br>
+               성우하이텍은 GOOD COMPANY를 넘어 GREAT COMPANY 성우하이텍을 달성하기 위해<br>
+               글로벌 무한경쟁 시대에 창의적 융복합형 인재를 지향합니다.
+               </p>
+           </div>
+       </header> 
+      <!--헤더영역 끝-->
+      <!--콘텐츠 영역(1) 시작-->
+      <article class="win">
+         <h2 class="w1680">
+             <h2>WIN-WIN</h2>
+              <h3>4차 산업의 혁명이다.</h3 >
+              <p>지속적으로 성장가능한 기업으로 나아가는 것은<br>
+              기업이 추구해야 할 궁극적 목표입니다.<br>
+              그런기업이 되기 위해서 가장 필요한 것은 무엇일까 생각해 봅니다.</p>
+         </h2>
+      </article>
+      <!--콘텐츠 영역(1) 끝-->
+      <!--콘텐츠 영역(2) 시작-->
+      <section class="cooperate">
+          <h2>기업의 문화</h2>
+          <!--내부컨텐츠01시작-->
+          <div class="w1680 cf">
+              <div class="content01">
+                  <h3>1.<br><br>COMMUNICATION</h3>
+                  <p>사람의 마음을 모으고 움직이는 일,<br>
+                         그것이 바로 소통이다.
+                  </p>
+              </div>
+              <!--내부컨텐츠01끝-->
+              <!--내부컨텐츠02시작-->
+              <div class="content02">
+                  <h3>2.<br><br>CARING</h3>
+                  <p>아주 작은 것을 관찰하는 것부터 시작입니다.<br>
+                      작은 배려와 관심은 감동을 만들어 냅니다. 
+                  </p>
+              </div>
+              <!--내부컨텐츠02끝-->
+              <!--내부컨텐츠03시작-->
+              <div class="content03">
+                  <h3>3.<br><br>INNOVATION</h3>
+                  <p>생각의 전환으로 더 빠른 길을 모색하려고 노력합니다.<br>
+                     유연하고 창조적인 사고로 미래를 준비합니다. 
+                  </p>
+              </div>
+              <!--내부컨텐츠03끝-->
+              <!--내부컨텐츠04시작-->
+              <div class="content04">
+                  <h3>4.<br><br>COOPERATION</h3>
+                  <p>한사람의 마음이 모여 움직여서<br>
+                     엄청난 결과를 만들어 낸다.
+                  </p>
+              </div>
+          </div>
+          <!--내부컨텐츠04끝-->
+      </section> 
+      <!--콘텐츠 영역(2) 끝-->
+      <!--콘텐츠 영역(3) 시작-->
+      <section class="development cf">
+          <h3>DEVELPOMENT</h3>
+          <h2>4차 산업시대 통섭형 인재 육성</h2>
+          <p>글로벌 인재의 무한한 가능성을 실현할 수 있도록 체계적인 프로그램과 유연하고<br>
+          수평적인 기업문화로 임직원의 전문성과 역량을 향상시키고<br>
+          인문,사회과학과 자연과학을 통합하여 창조적 성과를 창출하는 인재를 양성하고 있습니다.</p>
+      </section>
+      <!--콘텐츠 영역(3) 끝-->
+      <!--콘텐츠 영역(4) 시작-->
+      <section class="education w1680">
+         <!--인재육성 내부 컨텐츠01-->
+          <h2 class="expert">
+              <div class="img1">
+                  <img src="images/sw_person_human_img01.png" alt="expert">
+              </div>
+              <h3>직무 전문가 육성</h3>
+              <p>자동차부품설계,공장 자동화,프레스금형 실무,용접기술,<br>
+                자동화로봇,유압제어,측정기교정등<br>
+                자동차 부품생산의 기초가 되는 전문기술과정을<br>
+                습득하므로서,직무전문가로 육성하고 있습니다.</p>
+          </h2>
+         <!--인재육성 내부 컨텐츠01-->
+         
+         <!--인재육성 내부 컨텐츠02-->
+          <div class="grobal cf">
+              <div class="img2">
+                  <h3>글로벌 역량 강화</h3>
+                  <p>글로벌 인재 육성을 위해 다양한 언어<br>
+                  (영어,중국어,독일어,스페인어,일본어,러시아어)교육을<br>
+                  온라인으로 실시하고,평가를 통해 학습진척사항 및 성취도를<br>
+                  스스로 확인할 수 있돌고 도와줍니다.</p>
+              </div>
+              <img src="images/sw_person_human_img02.png" alt="expert">
+          </div>
+         <!--인재육성 내무 컨텐츠02-->
+      </section>
+      <!--콘텐츠 영역(4) 끝-->
+      <!--콘텐츠 영역(5) 시작-->
+      <section class="human w1680 cf">
+          <h2>인재상</h2>
+          <!--아이콘01 시작-->
+          <div class="self">
+              <img src="images/sw_person_talent_icon01.png" alt="">
+              <h3>자기계발</h3>
+              <p>자신의 부족한 점이나 잠재능력을 찾아<br>
+                  연구 개발하고 자신만의 HNOW-HOW개발에<br>
+                  최선을 다하며 미래에 요구되는<br>
+                  능력과 지식이 무엇인지 파악하고 이를 습득해 나가는 사람
+              </p>
+          </div>
+          <!--아이콘01 끝-->
+          <!--아이콘02 시작-->
+          <div class="pro">
+              <img src="images/sw_person_talent_icon02.png" alt="">
+              <h3>전문성</h3>
+              <p>담당업무에 필요한 전문지식을 보유하고<br>
+                  활용하여 업무를 효과적으로 진행하고 <br>
+                  담당 업무와 관련한 자격증/면허증을 보유한 사람
+                  
+              </p>
+          </div>
+          <!--아이콘02 끝-->
+          <!--아이콘03 시작-->
+          <div class="crea">
+              <img src="images/sw_person_talent_icon03.png" alt="">
+              <h3>창의성</h3>
+              <p>업무수행에 있어 새로운 사고방식이나<br>
+                  아이디어를 현실성 있게 반영하고,<br>
+                  새로운 사고방식이나 아이디어를 창출해<br>
+                  내어 업무에 활용하는 사람
+              </p>
+          </div>
+          <!--아이콘02 끝-->
+      </section>
+    <!--콘텐츠 영역(5) 시작-->
+    <section class="benefits cf">
+        <h2>혜택</h2>
+        <h3>사람이 혜택을 만들다 </h3>
+        <img src="images/sw_person_benefits.png" alt="benefits">
+        <div class="explanation">
+            <img src="images/sw_person_beinfo.png" alt="">
+        </div>
+    </section>
+    <!--콘텐츠 영역(5) 끝-->
+    <!--배너부분01시작-->
+    <aside class="banner01">
+        <img src="images/sw_person_banner_img01.png" alt="">
+        <div class="ban_info_1">
+            <h3>기업문화</h3>
+            <p>노사간의 화합을 이어가는 수평적인 소통의 힘</p>
+        </div>
+    </aside>
+    <!--배너부분01끝-->
+    <!--배너부분02시작-->
+    <aside class="banner02">
+        <img src="images/sw_person_banner_img02.png" alt="">
+        <div class="ban_info_2">
+            <h3>직무소개</h3>
+            <p>최선을 다하는 회사를 만들고 있습니다.</p>
+        </div>
+    </aside>
+    <!--배너부분02끝-->
+    
+    <footer>
+     <!--배너영역 시작-->
+      <nav class="footer_banner">
+         <ul class="nav_logo">
+            <li>
+               <a href="https://www.renaultsamsungm.com/">
+                  <img src="images/footer_memb_01.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.hyundai.com/kr/ko/e">
+                  <img src="images/footer_memb_02.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.kia.com/kr/main.html">
+                  <img src="images/footer_memb_03.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.audi.co.kr/kr/web/ko.html">
+                  <img src="images/footer_memb_04.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.mercedes-benz.co.kr/passengercars/buy/MBM/introduction.html">
+                  <img src="images/footer_memb_05.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.bmw.co.kr/ko/index.html">
+                  <img src="images/footer_memb_06.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.chevrolet.co.kr/index.jsp">
+                  <img src="images/footer_memb_07.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.volkswagen.co.kr/ko.html">
+                  <img src="images/footer_memb_08.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.gm-korea.co.kr/gmkorea/index.do">
+                  <img src="images/footer_memb_09.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.nissan.co.kr/">
+                  <img src="images/footer_memb_10.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.jaguarkorea.co.kr/index.html">
+                  <img src="images/footer_memb_11.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://www.tesla.com/ko_kr">
+                  <img src="images/footer_memb_12.png">
+               </a>
+            </li>
+         </ul>
+      </nav>
+     <!--배너영역 끝-->
+     <!--푸터 윗단 시작-->
+      <div class="footer_up">
+         <h2>
+            <img src="images/footer_logo.png">
+         </h2>
+         <ul class="footer_link">
+            <li>
+               <a href="#">
+                  회사소개
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  역사관
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  찾아오시는 길
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  인재채용
+               </a>
+            </li>
+         </ul>
+         <ul class="sns_logo">
+            <li>
+               <a href="https://www.facebook.com/pages/category/Automotive-Manufacturer/%EC%84%B1%EC%9A%B0%ED%95%98%EC%9D%B4%ED%85%8D-SUNGWOO-HITECH-807415382669763/">
+                  <img src="images/footer_icon_facebook.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://blog.naver.com/swhitech1977">
+                  <img src="images/footer_icon_twitter.png">
+               </a>
+            </li>
+            <li>
+               <a href="https://youtu.be/8ORiKXe12R8">
+                  <img src="images/footer_icon_youtube.png">
+               </a>
+            </li>
+         </ul>
+         <div class="footer_content">
+            <p>
+               [서창공장]50511경상남도 양산시 소주공단 3길50&nbsp;&nbsp;|&nbsp;&nbsp; 대표전화:070-7477-5000&nbsp;&nbsp;|&nbsp;&nbsp;팩스:055-366-5900
+            </p>
+            <p>
+               [정관공장]46020부산광영시 기장군 정관읍 농공길 2-9&nbsp;&nbsp;|&nbsp;&nbsp; 대표전화:070-7477-3516&nbsp;&nbsp;|&nbsp;&nbsp;팩스:051-728-3516
+            </p>
+         </div>
+         
+      </div>
+     <!--푸터 윗단 끝-->
+     <!--푸터 아랫단 시작-->
+      <hr>
+      <div class="footer_down">
+      <div class="footer_down_gnb">
+         <dl>
+            <dt><a href="#">기업정보</a></dt>
+            <dd><a href="#">기업개요</a></dd>
+            <dd><a href="#">미디어센터</a></dd>
+            <dd><a href="#">투자정보</a></dd>
+            <dd><a href="#">지속가능</a></dd>
+         </dl>
+         <dl>
+            <dt><a href="#">제품소개</a></dt>
+            <dd><a href="#">친환경차 부품</a></dd>
+            <dd><a href="#">스마트카 부품</a></dd>
+            <dd><a href="#">차체</a></dd>
+            <dd><a href="#">R&amp;D센터</a></dd>
+         </dl>
+         <dl>
+            <dt><a href="#">인재경영</a></dt>
+            <dd><a href="#">인사제도</a></dd>
+            <dd><a href="#">채용정보</a></dd>
+         </dl>
+         <dl>
+            <dt>검색</dt>
+            <dd>
+               <!--검색창 시작-->
+               <form action="#">
+                  <fieldset>
+                     <div class="search_box">
+                        <div class="container">
+                           <input type="search" id="search" placeholder="" autocomplete="off">
+                           <button>SEARCH</button>
+                        </div>
+                     </div>
+                  </fieldset>
+               </form>
+               <!--검색창 끝-->
+            </dd>
+         </dl>
+         </div>
+     <!--푸터 아랫단 끝-->
+        <!--푸터 마지막단 시작-->
+         <p class="footer_last">
+            COPYRIGHT&copy;2021 C5(2V) SUNGWOO HITECH RENEWAL ALL RIGHT RESERVED.
+         </p>
+        <!--푸터 마지막단 끝-->
+      </div>
+   </footer>
+    </div>
+</body>
+</html>
